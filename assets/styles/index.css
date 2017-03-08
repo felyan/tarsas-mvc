@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Helvetica, sans-serif;
+  color: #919191;
+  background-color: #232323;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  border: none;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+address,
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+}
+
+div.wrapper {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  overflow: auto;
+}
+
+#header,
+#container,
+#copyright {
+  display: block;
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-style: italic;
+  line-height: normal;
+}
+
+.doboz {
+  display: block;
+  float: left;
+  padding: 0 15px 15px 15px;
+  box-sizing: border-box;
+  width: 33%;
+}
+
+.doboz figcaption p {
+  min-height: 60px;
+}
+
+#header {
+  padding: 20px 0;
+  overflow: auto;
+}
+
+#header a {
+  color: white;
+}
+
+#header #hgroup {
+  float: left;
+  margin: 0 0 20px 0;
+}
+
+#header #hgroup h1,
+#header #hgroup h2 {
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none;
+}
+
+#header #hgroup h1 {
+  font-size: 36px;
+}
+
+#header #hgroup h2 {
+  font-size: 13px;
+}
+
+#header nav {
+  display: block;
+  float: right;
+  margin: 10px 0 0 0;
+  padding: 20px 0;
+  color: #C0BAB6;
+  background-color: #333;
+
+}
+
+#header nav ul {
+  padding: 0 20px;
+  border: 5px;
+  border-radius: 10px;
+
+}
+
+#header nav li {
+  display: inline;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+#header nav li.last {
+  margin-right: 0;
+}
+
+#header nav li a {
+  color: #C0BAB6;
+}
+
+#header nav li a:hover {
+  color: #FF9900;
+  background-color: #232323;
+
+}
+
+.container {
+  color: #979797;
+  background-color: #FFFFFF;
+}
+
+.container #container {
+  padding: 30px 15px;
+}
+
+#container section {
+  display: block;
+  width: 960px;
+  padding: 0;
+}
+
+#container .more {
+  text-align: right;
+}
+
+#slider {
+  margin-bottom: 30px;
+}
+
+#slider img {
+  width: 100%;
+  max-height: 400px;
+}
+
+#container #homepage {
+  display: block;
+  width: 100%;
+  line-height: normal;
+  text-align: justify;
+}
+
+#container #homepage #services {
+  overflow: auto;
+}
+
+#container #homepage #services .doboz-link {
+  border: 1px solid #D6D6D6;
+  padding: 4px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+#container #homepage #services .doboz-kep {
+  margin: 0 auto;
+  display: block;
+}
+
+#container #homepage #services article figure h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#copyright {
+  padding: 20px 0;
+}
+
+#copyright p {
+  margin: 0;
+  padding: 0;
+}
+
+.urlap {
+  margin: auto;
+  background-color: white;
+  width: 40%;
+  text-align: left;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 5px solid #919191;
+
+}
+
+.mezo_cs {
+  margin: 30px;
+  border-radius: 10px;
+
+}
+
+.registration-multiple {
+  width: 50%;
+  height: 200px;
+}
