@@ -12,7 +12,7 @@
             <figcaption>
               <h2>Új játék létrehozása</h2>
               <p>Itt tudsz új eseményt létrehozni,<br/> meghirdetni és meghívni rá másokat.</p>
-              <footer class="more"><a href="index.php?tartalom=ujesemeny">Létrehozok</a></footer>
+              <footer class="more"><a href="/index.php?' . $this->routeGetName . '=' . $key">Létrehozok</a></footer>
             </figcaption>
           </figure>
         </article>

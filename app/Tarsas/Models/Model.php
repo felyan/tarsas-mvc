@@ -17,11 +17,18 @@ class Model extends stdClass
     $this->connect();
   }
 
+  /**
+   * Kiolvassa a konfigurációt az általános beállításokhoz tartozó ini fájlból.
+   */
   protected function getConfig()
   {
     $this->config = parse_ini_file('config/general.ini', true);
   }
 
+  /**
+   * Példányosítja a PDO objektumot, a config-ban megadott authentikációs adatokkal.
+   * Alapértelmezetten UTF8 kódolással dolgozunk.
+   */
   public function connect()
   {
     $this->db = new PDO(
